@@ -7,6 +7,10 @@ This is the first version but the plan is to connect the project to a Domoticz h
 
 I use the library NewPing for controlling the sensor: https://bitbucket.org/teckel12/arduino-new-ping/wiki/Home 
 
+The sensor looks like this:
+
+![alt tag](hc-sr04.JPG)
+
 OUTPUT
 ------
 The level is measured once every second at the moment. Definately overkill for all use cases. The output is sent to the serial monitor at 115200 baud. Will be changed in the future but good for debugging.
