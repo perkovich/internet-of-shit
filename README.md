@@ -11,6 +11,8 @@ OUTPUT
 ------
 The level is measured once every second at the moment. Definately overkill for all use cases. The output is sent to the serial monitor at 115200 baud. Will be changed in the future but good for debugging.
 
+![alt tag](output_to_serial_monitor.png)
+
 THE TANK
 --------
 We have a cylindrical tank buried in the ground beside the how. The measures in the code are related like this:
