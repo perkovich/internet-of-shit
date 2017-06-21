@@ -11,19 +11,19 @@ I use the library NewPing for controlling the sensor: https://bitbucket.org/teck
 
 The sensor looks like this:
 
-![alt tag](hc-sr04.JPG)
+![alt tag](Documentation/hc-sr04.JPG)
 
 OUTPUT
 ------
 The level is measured once every second at the moment. Definately overkill for all use cases. The output is sent to the serial monitor at 115200 baud. Will be changed in the future but good for debugging.
 
-![alt tag](output_to_serial_monitor.png)
+![alt tag](Documentation/output_to_serial_monitor.png)
 
 THE TANK
 --------
 We have a cylindrical tank buried in the ground beside the how. The measures in the code are related like this:
 
-![alt tag](tank.png)
+![alt tag](Documentation/tank.png)
 
 THE MATH
 --------
