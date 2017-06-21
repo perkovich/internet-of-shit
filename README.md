@@ -1,9 +1,11 @@
-# internet-of-shit
-Arduino project to measure, track and calculate poop volume in a tank.
+    # internet-of-shit
+Arduino and RaspberryPi project to measure, track and calculate poop volume (and distance) in a tank.
 
-Many houses are connected to sewers and don't have to think about this but if you have a closed system that needs to be emptied once in a while (depending on usage) this might be useful.. It may not be the most important issue to solve but if you forget to empty you tank of poop you might end up in deep shit (literally speaking). With an ultrasonic sensor and an Arduino kit I tried to solve this in techie way. An easy solution would be to lift the lid once in a while but then you can't get the data, statistics, tracking and all other things that comes with an automated solution.
+Many houses are connected to sewers and don't have to think about this but if you have a closed system that needs to be emptied once in a while (depending on usage) this might be useful. It may not be the most important issue to solve but if you forget to empty you tank of poop you might end up in deep shit (literally speaking). With an ultrasonic sensor and an Arduino kit I tried to solve this in techie way. An easy solution would be to lift the lid once in a while but then you can't get the data, statistics, tracking and all other things that comes with an automated solution.
 
-This is the first version but the plan is to connect the project to a Domoticz home automation system and get notifications, graphs and other functionality.
+This repo contains two versions. 
+- A Python version for RaspberryPi that connects to a Domoticz home automations system for tracking, notifications and other funcionality.
+- An Arduino version that measures and reports to a serial port.
 
 I use the library NewPing for controlling the sensor: https://bitbucket.org/teckel12/arduino-new-ping/wiki/Home 
 
